@@ -1,12 +1,10 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body
-{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +12,11 @@ body
     background: #091921;
 }
 
-body.light 
-{
+body.light {
     background: #D1DAE3;
 }
 
-.clock
-{
+.clock {
     width: 400px;
     height: 400px;
     display: flex;
@@ -36,8 +32,7 @@ body.light
                 inset 20px 20px 20px rgba(0,0,0,0.3);
 }
 
-body.light .clock
-{
+body.light .clock {
     background: #D1DAE3 url(clock.png);
     background-size: cover; 
     border: 4px solid #CAD3DC;
@@ -47,8 +42,7 @@ body.light .clock
                 inset 10px 10px 10px rgba(0,0,0,0.1);
 }
 
-.clock::before
-{
+.clock::before {
     content: '';
     position: absolute;
     width: 15px;
@@ -58,38 +52,30 @@ body.light .clock
     z-index: 10000;
 }
 
-body.light .clock::before 
-{
+body.light .clock::before {
     background: #008EFF;
 }
 
-.clock .hour,
-.clock .min,
-.clock .sec
-{
+.clock .hour, .clock .min, .clock .sec {
     position: absolute;
 }
 
-.clock .hour, .hr
-{
+.clock .hour, .hr {
     width: 160px;
     height: 160px;
 }
 
-.clock .min, .mn
-{
+.clock .min, .mn {
     width: 190px;
     height: 190px;
 }
 
-.clock .sec, .sc
-{
+.clock .sec, .sc {
     width: 230px;
     height: 230px;
 }
 
-.hr, .mn, .sc
-{
+.hr, .mn, .sc {
     display: flex;
     justify-content: center;
     /*align-items: center;*/
@@ -97,8 +83,7 @@ body.light .clock::before
     border-radius: 50%;
 }
 
-.hr::before
-{
+.hr::before {
     content: '';
     position: absolute;
     width: 8px;
@@ -108,8 +93,7 @@ body.light .clock::before
     border-radius: 6px 6px 0 0;
 }
 
-.mn::before
-{
+.mn::before {
     content: '';
     position: absolute;
     width: 4px;
@@ -119,13 +103,11 @@ body.light .clock::before
     border-radius: 6px 6px 0 0;
 }
 
-body.light .mn::before
-{
+body.light .mn::before {
     background: #091921;
 }
 
-.sc::before
-{
+.sc::before {
     content: '';
     position: absolute;
     width: 2px;
@@ -135,8 +117,7 @@ body.light .mn::before
     border-radius: 6px 6px 0 0;
 }
 
-.toggle
-{
+.toggle {
     position: absolute;
     top: 30px;
     right: 150px;
@@ -153,16 +134,14 @@ body.light .mn::before
     align-items: center;
 }
 
-.toggle::before
-{
+.toggle::before {
     position: absolute;
     content: 'Light Mode';
     left: 25px;
     white-space: nowrap;
 }
 
-.toggleClass
-{
+.toggleClass {
     position: absolute;
     top: 30px;
     right: 150px;
@@ -178,21 +157,18 @@ body.light .mn::before
     align-items: center;
 }
 
-.toggleClass::before
-{
+.toggleClass::before {
     position: absolute;
     content: 'Light Mode';
     left: 25px;
     white-space: nowrap;
 }
 
-body.light .toggleClass
-{
+body.light .toggleClass {
     background: #091921;
     color: #091921;
 }
 
-body.light .toggleClass::before
-{
+body.light .toggleClass::before {
     content: 'Dark Mode';
 }
