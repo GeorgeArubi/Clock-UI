@@ -121,13 +121,13 @@ body.light .mn::before {
     position: absolute;
     top: 30px;
     right: 150px;
-    width: 20px;
-    height: 20px;
+   /* width: 20px;
+    height: 20px; */
     font-size: 18px;
     border-radius: 50%;
     background: #D1DAE3;
     color: #D1DAE3;
-    font-family: consolas;
+    font-family: consolas; */
     cursor: pointer;
     transition: 0.5s;
     display: flex;
@@ -136,7 +136,7 @@ body.light .mn::before {
 
 .toggle::before {
     position: absolute;
-    content: 'Light Mode';
+   /* content: 'Light Mode';*/
     left: 25px;
     white-space: nowrap;
 }
@@ -145,8 +145,8 @@ body.light .mn::before {
     position: absolute;
     top: 30px;
     right: 150px;
-    width: 20px;
-    height: 20px;
+   /* width: 20px;
+    height: 20px; */
     font-size: 18px;
     border-radius: 50%;
     background: #D1DAE3;
@@ -159,7 +159,7 @@ body.light .mn::before {
 
 .toggleClass::before {
     position: absolute;
-    content: 'Light Mode';
+    content: '';
     left: 25px;
     white-space: nowrap;
 }
@@ -170,7 +170,7 @@ body.light .toggleClass {
 }
 
 body.light .toggleClass::before {
-    content: 'Dark Mode';
+    content: '';
 }
 
 .container {
@@ -191,10 +191,10 @@ input[type="checkbox"] {
     -webkit-appearance: none;
     height: 80px;
     width: 160px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.05),
-                10px 10px 10px rgba(0,0,0,0.3),
-                inset -8px -8px 15px rgba(255,255,255,0.05),
-                inset 10px 10px 10px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3),
+                -8px -8px 15px rgba(255,255,255,0.05),
+                inset 10px 10px 10px rgba(0,0,0,0.3),
+                inset -8px -8px 15px rgba(255,255,255,0.05);
     border: 5px solid #D1DAE3;
     border-radius: 40px;
     left: 15px;
@@ -216,10 +216,8 @@ input[type="checkbox"]::before {
     height: 50px;
     width: 50px;
     background-color: #D1DAE3;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.05),
-                10px 10px 10px rgba(0,0,0,0.3),
-                inset -8px -8px 15px rgba(255,255,255,0.05),
-                inset 10px 10px 10px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3),
+                -8px -8px 15px rgba(255,255,255,0.05);          
     border-radius: 50%;
     left: 15px;
 }
