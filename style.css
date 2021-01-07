@@ -159,7 +159,7 @@ body.light .mn::before {
 
 .toggleClass::before {
     position: absolute;
-    content: '';
+    content: 'Light Mode';
     left: 25px;
     white-space: nowrap;
 }
@@ -170,7 +170,7 @@ body.light .toggleClass {
 }
 
 body.light .toggleClass::before {
-    content: '';
+    content: 'Dark Mode';
 }
 
 .container {
@@ -192,9 +192,9 @@ input[type="checkbox"] {
     height: 80px;
     width: 160px;
     box-shadow: -8px -8px 15px rgba(255,255,255,0.05),
-                20px 20px 20px rgba(0,0,0,0.3),
+                10px 10px 10px rgba(0,0,0,0.3),
                 inset -8px -8px 15px rgba(255,255,255,0.05),
-                inset 20px 20px 20px rgba(0,0,0,0.3);
+                inset 10px 10px 10px rgba(0,0,0,0.3);
     border: 5px solid #D1DAE3;
     border-radius: 40px;
     left: 15px;
@@ -217,9 +217,9 @@ input[type="checkbox"]::before {
     width: 50px;
     background-color: #D1DAE3;
     box-shadow: -8px -8px 15px rgba(255,255,255,0.05),
-                20px 20px 20px rgba(0,0,0,0.3),
+                10px 10px 10px rgba(0,0,0,0.3),
                 inset -8px -8px 15px rgba(255,255,255,0.05),
-                inset 20px 20px 20px rgba(0,0,0,0.3);
+                inset 10px 10px 10px rgba(0,0,0,0.3);
     border-radius: 50%;
     left: 15px;
 }
