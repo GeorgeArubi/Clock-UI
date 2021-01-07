@@ -127,7 +127,7 @@ body.light .mn::before {
     border-radius: 50%;
     background: #D1DAE3;
     color: #D1DAE3;
-    font-family: consolas; */
+    font-family: consolas;
     cursor: pointer;
     transition: 0.5s;
     display: flex;
