@@ -174,10 +174,9 @@ body.light .toggleClass::before {
 }
 
 .container {
+    margin-top: 15px;
     height: 120px;
     width: 250px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.05),
-                10px 10px 10px rgba(0,0,0,0.3);
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
