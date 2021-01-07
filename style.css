@@ -228,7 +228,7 @@ input[type="checkbox"]::before {
 input[type="checkbox"]::after {
     height: 15px;
     width: 15px;
-    background-color: #CAD3DC;
+    background-color: #7A7A7A;
     border-radius: 50%;
     right: -55px;
 }
