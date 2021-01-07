@@ -218,9 +218,9 @@ input[type="checkbox"]::before {
     width: 50px;
     background-color: #D1DAE3;
     box-shadow: -8px -8px 15px rgba(255,255,255,0.05),
-                10px 10px 10px rgba(0,0,0,0.3),
+                20px 20px 20px rgba(0,0,0,0.3),
                 inset -8px -8px 15px rgba(255,255,255,0.05),
-                inset 10px 10px 10px rgba(0,0,0,0.3);
+                inset 20px 20px 20px rgba(0,0,0,0.3);
     border-radius: 50%;
     left: 15px;
 }
