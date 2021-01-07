@@ -189,8 +189,8 @@ body.light .toggleClass::before {
 input[type="checkbox"] {
     position: absolute;
     -webkit-appearance: none;
-    height: 80px;
-    width: 160px;
+    height: 50px;
+    width: 120px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.3),
                 -8px -8px 15px rgba(255,255,255,0.05),
                 inset 10px 10px 10px rgba(0,0,0,0.3),
@@ -213,8 +213,8 @@ input[type="checkbox"]::after {
 }
 
 input[type="checkbox"]::before {
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
     background-color: #D1DAE3;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.3),
                 -8px -8px 15px rgba(255,255,255,0.05);          
@@ -227,11 +227,11 @@ input[type="checkbox"]::after {
     width: 15px;
     background-color: #7A7A7A;
     border-radius: 50%;
-    right: -55px;
+    right: -40px;
 }
 
 input[type="checkbox"]:checked::before {
-    left: 86px;
+    left: 70px;
 }
 
 input[type="checkbox"]:checked::after{
